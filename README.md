@@ -15,5 +15,5 @@ Images to put in the gallery should be in the `/images` directory.
       --rm \
       -v ~/Downloads/kittens:/images \
       -p 80:80 \
-      -e "GALLERY_TITLE=My Photos"
+      -e "GALLERY_TITLE=My Photos" \
       docwhat/image-gallery
