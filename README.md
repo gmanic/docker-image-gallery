@@ -13,7 +13,7 @@ Images to put in the gallery should be in the `/images` directory.
 
     docker run \
       --rm \
-      -v ~/Downloads/kittens:/images \
+      -v ~/Downloads/kittens:/images:ro \
       -p 80:80 \
-      -e "GALLERY_TITLE=My Photos"
+      -e "GALLERY_TITLE=My Photos" \
       docwhat/image-gallery
