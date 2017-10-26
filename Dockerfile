@@ -5,6 +5,7 @@ ENV FGALLERY_VERSION 1.8.2
 RUN export DEBIAN_FRONTEND noninteractive \
   && apt-get update \
   && apt-get install -y --no-install-recommends \
+       ca-certificates \
        curl \
        imagemagick \
        exiftran \
