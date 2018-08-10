@@ -7,11 +7,11 @@ A simple way photo gallery container using
 For usage with ansible, you can add the environment variable opts with the command line parameter you desire,
 e.g.
 
-[...]
- env:
-   GALLERY_TITLE: My kitten pics
-   opts: -d
-[...]
+    [...]
+    env:
+      GALLERY_TITLE: My kitten pics
+      opts: -d
+    [...]
 
 to disable a zip-file with all images.
 
