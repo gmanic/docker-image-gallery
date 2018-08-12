@@ -28,4 +28,4 @@ Images to put in the gallery should be in the `/images` directory.
       -v ~/Downloads/kittens:/images:ro \
       -p 80:80 \
       -e "GALLERY_TITLE=My Photos" \
-      docwhat/image-gallery
+      gmaniac/image-gallery
