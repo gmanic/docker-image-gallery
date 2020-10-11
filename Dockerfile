@@ -33,3 +33,4 @@ VOLUME /images
 WORKDIR /images
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
+# Docker rebuild change only
