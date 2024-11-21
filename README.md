@@ -29,3 +29,6 @@ Images to put in the gallery should be in the `/images` directory.
       -p 80:80 \
       -e "GALLERY_TITLE=My Photos" \
       gmaniac/image-gallery
+
+
+Repo is archived - no further development on this
